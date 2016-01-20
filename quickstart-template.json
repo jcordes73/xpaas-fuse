@@ -254,6 +254,12 @@
                   "initialDelaySeconds": 30,
                   "timeoutSeconds": 5
                 },
+                "env": [
+                    {
+                      "name": "A_MQ_SERVICE_NAME",
+                      "value": "${A_MQ_SERVICE_NAME}"
+                    }
+                ],
                 "ports": [
                   {
                     "containerPort": 8181,
